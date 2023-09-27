@@ -241,3 +241,75 @@ footer p span{
     color: blue;
     font-family: monospace;
 }
+@media (max-width:600px){
+    header {
+        padding: 5px 10px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .logo {
+        font-weight: 600;
+        font-size: 1em;
+    }
+    .navigation a {
+        font-weight: 300;
+        font-size: 0.8em;
+        padding-left: 10px;
+    }
+    main {
+        font-size: 12px;
+    }
+    section {
+        padding: 80px 50px;
+    }
+    .section1 {
+        min-height: 100vh;
+    }
+    .section1 p{
+        margin-top: 50px;
+    }
+    .section1 h1{
+        margin-top: 30px;
+    }
+    .section1 h2{
+        margin-top: 30px;
+    }
+    .section1 .s1-btn{
+        margin-top: 30px;
+    }
+    .section1 .icons{
+        margin-top: 30px;
+    }
+    .boards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .board1 {
+        width: 22em; 
+        padding: 10px 15px;
+    }
+    .board2 {
+        width:22em;
+    }
+    .section3 {
+        min-height: 93vh;
+     }
+    .section4 {
+       min-height: 93vh;
+    }
+    .section4 h5{
+        margin: 50px;
+    }
+    .section4 .boards .board1{
+        margin: 50px 25px;
+        width: 22em;
+        padding: 10px 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+   
+}
